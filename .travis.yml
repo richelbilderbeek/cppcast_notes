@@ -1,7 +1,9 @@
 dist: trusty
 
 install:
+  - sudo apt-get install aspell
   - sudo pip install proselint
 
 script: 
+  - cat README.md | aspell --list
   - proselint README.md
