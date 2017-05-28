@@ -1,5 +1,9 @@
 # cppcast_notes
 
+[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
+
+[![Build Status](https://travis-ci.org/richelbilderbeek/cppcast_notes.svg?branch=master)](https://travis-ci.org/richelbilderbeek/cppcast_notes)
+
 Shownotes for CppCast episode 103.
 
  * Host: Rob Irving
