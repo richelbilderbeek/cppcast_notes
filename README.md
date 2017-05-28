@@ -20,7 +20,7 @@ he is a PhD in theoretical biology.
 
 ## Guest introduction
 
-Richel ...
+Richel 
 
  * programs since the age of 8, by following an adult programming course in GW-BASIC
  * switched to QBasic at the age of 10
