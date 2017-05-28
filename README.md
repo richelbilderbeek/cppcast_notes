@@ -1,13 +1,14 @@
 # cppcast_notes
 
-Notes for CpCast.
+Shownotes for CppCast episode 103.
 
-
-
+ * Host: Rob Irving
+ * Co-Host: Jason Turner
+ * Guest: Richel Bilderbeek ('Re-shell builder-bake')
 
 ## Brief guest introduction
 
-Richel Bilderbeek ('Re-shell builder-bake') is a C++ developer for 17 years.
+Richel Bilderbeek is a C++ developer for 17 years.
 He is mostly interested in what the literature has to say about good C++ practices, 
 then teaching children and to adults, additionally
 writing articles, blog posts and tutorials. In his professional life, 
@@ -79,111 +80,58 @@ Richel ...
  * Practice what you preach  
  * Measure that it *is* a good practice
  * Continuous integration amplifies many other good practices
-   * Continuous profiling: find when you unknowingly introduce a speed bottleneck
-   * 
+   * Measuring code coverage changes your architecture
+   * Adding style detection tools changes your coding style
+   * Automate profiling, memory leak detection, etc
 
 ## Teaching
 
-   * Humble, open, admit errors
-   * Volunteer
-   * To kids and adults
-   * Tutorials
-     * Boost.Graph tutorial
-     * Travis CI tutorial
+ * Parents were ballroom dancing teachers
+ * Set up a C++ programming course at the university, with C++ Builder, for theoretical biologists
+ * Graduated as a teacher in biology, taught biology, chemistry, physics and stagecraft at a secondary school
+ * Collected all C++ advice on [http://richelbilderbeek.nl](my personal website), now [on GitHub](https://github.com/richelbilderbeek/cpp)
+   * Stroustrup: humble, condensed
+   * Meyers: funny, convincing
+   * Sutter and Alexandrescu: funny, convincing
+   * Sean Parent: deep detailed knowledge
+   * Kevlin Henney: naming things well
    * Kate Gregory 'Stop teaching C', [her CppCon 2015 presentation](https://www.youtube.com/watch?v=YnWhqhNdYyk)
+ * Set up two courses to teach Arduino and programming
+   * Dutch teaching material
+ * [Articles](https://github.com/richelbilderbeek/articles): first on my website only, just recently on [Arne Metz's Simplify C++ blog](https://arne-mertz.de/2017/04/continuous-integration-travis-ci/)
+ * Tutorials
+   * [Boost.Graph tutorial](https://github.com/richelbilderbeek/BoostGraphTutorial): 90%
+   * [Travis CI tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial): 70%
+   * [Tutorial about the MXE cross-compiling environment](https://github.com/richelbilderbeek/mxe_tutorial): 50%
+   * [Tutorial about testing C++ GUI applications](https://github.com/richelbilderbeek/testing_cpp_gui_applications_tutorial): 50%
+   * [Tutorial about using Travis CI in R projects](https://github.com/richelbilderbeek/travis_r_tutorial): 70%
+   * [Tutorial how to use AppVeyor with C++](https://github.com/richelbilderbeek/appveyor_cpp_tutorial): 30%
 
 ## Teaching and Travis CI
 
-   * Forcing students to use good practices
-     * OCLint, gcov, gprof, cppcheck, valgrind
-   * Tutorials
-     * aspell, proselint
-## People
-
- * Niall Douglas (Boost.AFIO v2 and Boost Outcome), Stroustrup, Sutter, Meyer, Alexandrescu
- * Humble, open, admit errors
-
-## People and Travis CI
+ * Force students to use good practices
+   * OCLint: style must follow the guidelines
+   * gcov: check code coverage: must be high, unused code can be removed
+   * gprof: show run-time speed: only improve speed of functions where it matters
+   * cppcheck: static type checking
+   * valgrind: memory leaks, data races
 
 ## Science
 
- * Theoretical biology
- * Humble, open, admit errors
+ * Theoretical biology: mathematics, computer simulations
+ * Speciation models
+ * My work is open, exposing possible flaws
+ * My work is reproducible
+ * Most scientists do not care about the C++ good practices
 
 ## Science and Travis CI
 
- * Why are the C++ good practices ignored?
- * Makes research reproducible
+ * GitHub (and Travis CI) facilitates research being open
+ * Travis CI facilitates research being reproducible
+ * I like to add Travis CI to academic GitHubs
 
-## Future ideas
+## Future goals
 
-
-## 
-
-103.
-
-Rob Irving
-Jason Turner
-
-
- * Introduction: who is he? brief
- * News: comment on it
-
-
-Niall Douglas: Boost.AFIO v2 and Boost Outcome
-
-
-
-
-
-
-
-
-
-## Email sent to Rob and Jason
-
-The topic:
-
-Travis CI is a continuous integration service. It will run any script every time you push your code to an online code repository. For example, it can check if your code compiles. It does so in a virtualized environment, using Docker, resulting in reproducible builds. But Travis can do anything you can put in a bash script. Examples are: running test suites, measuring code coverage, profiling, static code analysis, checking the coding style, checking for memory leaks, checking for synchonization errors, and more. My favorite setup, https://github.com/richelbilderbeek/the_richel_setup , has a C++ project checked in all those aspects. Not only does Travis CI safeguard the quality of your project, I use it for teaching as well: I supply my students with a prepared GitHub and let Travis make its suggestions.
-
-My bio:
-
-I started programming at the age of eight in GW-BASIC by following a course for adults, with an official exam that I passed with flying colors. I made the switch to QBasic and developed some games, some of which were twenty players games (on one keyboard!). 
-
-At the age of twenty, I made the switch to C++ to build simulations in the field of theoretical biology. In my spare time, I kept creating games, but also got my first paid C++ projects. I started reading the C++ literature and changed my style multiple times due to this: I wanted to do C++ in the best way possible. I started giving C++ courses, trainings and got active on the Programmers' Heaven forum. I wrote a 2000+ wikipedia about C++ at Codepedia ( www.codepedia.com ) that gives minimal examples and references to the literature. When the Codepedia changed its layout that my articles looked bad, I ported the content to my personal HTML website ( www.richelbilderbeek.nl ), growing to 3000+ pages about C++.  
-
-git and GitHub had a massive impact on my workflow and I now have 600+ GitHub repositories. I ported my 3000+ C++ pages to GitHub ( https://github.com/richelbilderbeek/cpp/tree/master/content ) and am still in the process of doing so. 
-
-As a volunteer, I started to additionally teach kids programming in Scratch, Processing and C++ ( https://github.com/richelbilderbeek/Dojo ), also on Arduino ( https://github.com/richelbilderbeek/ArduinoCourse ). After approx three years, I have around thirty students aged 7-18 that visit my cheap (1 euro per evening) courses.
-
-My programming style is mostly influenced by Stroustrup, Meyers, Sutter, Alexandrescu (all have been on your show) and Kevlin Henney. Kate Gregory (she has been on your show as well) has been a major support in how I teach C++. 
-
-Travis CI, and continuous integration in general, had another major impact in the way I work. I have about 200+ GitHub repos checked by Travis CI and AppVeyor. I have added Travis CI support to approx 20+ GitHub repos of tools I used. I am in the process of writing a tutorial about this ( https://github.com/richelbilderbeek/travis_cpp_tutorial ), but already produced some blog posts about it: one in C++ for Arne Metz's (he has been a guest in your show) Simplify C++ blog ( https://arne-mertz.de/2017/04/continuous-integration-travis-ci/ ) and one about R in the SDJournal ( https://github.com/richelbilderbeek/sdj_raising_your_code_to_professional_standards ). 
-
-One of the thing that puzzles me the most, is how academia mostly does not follow the best practices in programming. Where scientist are trying to unravel the truth, it appears unimportant if the code used is correct. It has been estimated that 20% of all publications in my field are based on software bugs. Few (but luckily more and more) academic simulations use GitHub (most code has to be requested by email) and less have tests. And where communication of your ideas is one of the most important skills as a scientist, readable code, nor documentation of it, somehow is not included. I can be amazed by coding styles perpendicular to the C++ Core Guidelines and these deviations defended (even 'void main') by the most successful scientists. I fight to make academia more reliable and social by putting code on GitHub and adding Travis CI. I am happy to see that this sometimes works out great!
-
-Three years ago, I started to use the R programming language and I am now the R User Group Groningen (the city where I live) coordinator. Also the R community can benefit from good programming practices, for example, from Hadley Wickham. From R I learned what most students expect programming to be: it should be easy to let the computer just do something, and debugging is just OK. R is great for that! I prefer the other way around: compiling should be strict, so run-time debugging can be avoided, which is where C++ shines (the Boost.Graph library is great in that aspect)! 
-
-I have written quite some tutorials, most are still growing organically: 
-
-https://github.com/richelbilderbeek/BoostGraphTutorial
-A well-connected C++14 Boost.Graph tutorial
-
-https://github.com/richelbilderbeek/travis_cpp_tutorial
-Tutorial how to use Travis CI with C++
-
-https://github.com/richelbilderbeek/mxe_tutorial
-Tutorial about the MXE cross-compiling environment
-
-https://github.com/richelbilderbeek/testing_cpp_gui_applications_tutorial
-Tutorial about testing C++ GUI applications
-
-https://github.com/richelbilderbeek/travis_r_tutorial
-Tutorial about using Travis CI in R projects
-
-https://github.com/richelbilderbeek/appveyor_cpp_tutorial
-Tutorial how to use AppVeyor with C++
-
-Recently I discovered my 17 years of C++ experience is really something. I consider myself a mediocre programmer that just follows the best practices. But there are plenty of beginner C++ programmers that can benefit from experienced C++ programmers like me. This insight made me reach out to CppCast and blogs.
-
-Future goals are to reach out more, try to improve academia's coding practices and keep teaching my minor (and adult) students C++ in the correct way.
+ * Reach out more
+ * Try to improve academia's coding practices 
+ * Keep teaching correct C++
