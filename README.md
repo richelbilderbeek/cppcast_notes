@@ -121,7 +121,7 @@ Richel
 
 OTOH, I also teach a programming course, in which we teach SFML and Urho3D
 
- * Very similar to Kate Gregory 'Stop teaching C', [her CppCon 2015 presentation](https://www.youtube.com/watch?v=YnWhqhNdYyk)
+ * Similar to Kate Gregory 'Stop teaching C', [her CppCon 2015 presentation](https://www.youtube.com/watch?v=YnWhqhNdYyk)
  * Accelerated C++, Andrew Koenig & Barbara Moo
  * Programming, Stroustrup
  * C++ Core Guidelines 
