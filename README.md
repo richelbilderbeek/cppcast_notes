@@ -75,12 +75,14 @@ Richel
  * All tools I can get to work
    * cppcheck
    * gcov
-   * OCLint
+   * OCLint, similar to metrix++
    * gprof and perf
    * helgrind (thread errors)
    * memcheck (memory leaks)
+   * libfuzzer
  * With mixed success
-   * clang-tidy, ?clang-format
+   * clang-tidy
+   * clang-modernize
  * Without success
    * Coverity Scan
  * Misc
