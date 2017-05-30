@@ -34,32 +34,127 @@ Richel
  * became a PhD in science, [university page](http://www.rug.nl/staff/r.j.c.bilderbeek/research)
  * wants to reach out more, [blog post at Arne Metz](https://arne-mertz.de/2017/04/continuous-integration-travis-ci/)
 
-## Travis CI
-
- * What made you start?
- * What is it?
- * Why use it?
-
-### What made you start using Travis CI?
-
- * started because it would be good practice
- * I already did TDD, [and TDD works, according to Uncle Bob](http://programmer.97things.oreilly.com/wiki/index.php/The_Three_Laws_of_Test-Driven_Development)
- * Recommended by [97 things every programmer should know](http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know)
- * There was a scientist that also used it, [RPANDA package](https://github.com/hmorlon/PANDA)
-
-### What is Travis CI?
+## I think a lot of our listeners may have at least heard of Travis CI, for those that don't though or those who have just seen a badge on a github repo and don't know anything else why don't you tell us what Travis is
 
  * a continuous integration service
  * push to GitHub and it does whatever you told it to
  * uses a `.travis.yml` script
-
-### Why use Travis CI?
+ 
+## Why should C++ developers use Travis?
 
  * because it is supposed to be good practice to do so
  * no need to manually start your tests (unit tests, profiling, memory leaks, data races, etc)
  * ensures build is reproducible
  * Pull Requests get tested before merging
+ * many diagnostics can be added at low cost
+ * to learn/teach
  * a badge of quality
+
+## What got you interested in Travis?
+
+ * Friend from hackerspace used Jenkins
+ * a good practice
+ * I already did TDD, [and TDD works, according to Uncle Bob](http://programmer.97things.oreilly.com/wiki/index.php/The_Three_Laws_of_Test-Driven_Development)
+ * Recommended by [97 things every programmer should know](http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know)
+ * There was a scientist that also used it, [RPANDA package](https://github.com/hmorlon/PANDA)
+
+## What can you do with Travis? CI Builds, unit tests, more?
+
+ * Testing the build
+ * Running unit tests
+ * Everything you want to do automatically
+
+## What scripting language are Travis scripts written in?
+
+ * `yml`: Yet Another Markup Language
+ * indentation matters
+ * bash commands
+
+## Do you use other tools with Travis, like cppcheck / clang-tidy?
+
+ * All tools I can get to work
+   * cppcheck
+   * gcov
+   * OCLint
+   * gprof and perf
+   * helgrind (thread errors)
+   * memcheck (memory leaks)
+ * With mixed success
+   * clang-tidy, ?clang-format
+ * Without success
+   * Coverity Scan
+ * Misc
+   * aspell, proselint
+
+## Sometimes, git and GitHub are called 'transformative tools', as they change your workflow. Would you consider CI be that as well?
+
+ * Yes
+ * I dislike doing things manually
+ * Continuous integration amplifies many other good practices
+   * Measuring code coverage changes your architecture
+   * Adding style detection tools changes your coding style
+   * Automate profiling shows that indeed most functions need not to be speed improved
+
+## What OS's and platforms does Travis support?
+
+ * GNU/Linux, MacOS (, Android)
+ * Windows: use AppVeyor
+ * Many languages
+
+## Tell us a bit more about your professional life, how is C++ used in theoretical biology?
+
+ * Theoretical biology: mathematics, computer simulations
+ * Examples
+   * MSc project: earthworms
+   * PhD project: speciation models
+ * Reproducible in theory
+   * 20% of articles from a software bug
+   * GitHub and Travis help ensure reproducability and quality
+   * Most scientists do not care about the C++ good practices
+
+## Your github profile mentions that you teach Arduino programming, how much C++ do you teach with the Arduino?
+
+ * Arduino-style C++: 
+  * no STL
+  * arrays
+  * const global variables
+
+OTOH, I also teach a programming course, in which we teach SFML and Urho3D
+
+ * Very similar to Kate Gregory 'Stop teaching C', [her CppCon 2015 presentation](https://www.youtube.com/watch?v=YnWhqhNdYyk)
+ * Accelerated C++, Andrew Koenig & Barbara Moo
+ * Programming, Stroustrup
+ * C++ Core Guidelines 
+ * Until they need a feature
+
+## Are your students receptive to C++?
+
+ * Minor kids
+   * [sent email]
+   * they are interested in what you can do with it
+ * University students
+   * they have to learn it, due to academic culture
+   * 'hard': compile time error feels worse than a run-time error 
+
+## Are there similar continuous integration services?
+
+ * AppVeyor (Windows)
+ * Codehsip, Jenkins, Wercker, etc.
+
+## Is there a feature you miss in Travis CI?
+
+ * Testing desktop application GUIs
+   * xdotools, Sikuli, LDTP2
+
+## Where would you suggest to start with Travis CI?
+
+ * Find minimal example: [travis_cpp_tutorial statuses](https://github.com/richelbilderbeek/travis_cpp_tutorial/blob/master/statuses.md)
+ * Tutorial: [travis_cpp_tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial)
+
+# My own notes
+
+These I could not put in the interview
+
 
 ## Good practices. Why follow them?
 
@@ -78,15 +173,6 @@ Richel
  * Show being social
    * Recognition of preferred ways to do things, e.g. `pimpl`: C++ Core Guidelines
    * Naming variables, functions, classes makes the code communicate better, Kevlin Henney
-
-##  Good practices and Travis CI
-
- * Practice what you preach  
- * Measure that it *is* a good practice
- * Continuous integration amplifies many other good practices
-   * Measuring code coverage changes your architecture
-   * Adding style detection tools changes your coding style
-   * Automate profiling, memory leak detection, etc
 
 ## Teaching
 
@@ -119,14 +205,6 @@ Richel
    * gprof: show run-time speed: only improve speed of functions where it matters
    * cppcheck: static type checking
    * valgrind: memory leaks, data races
-
-## Science
-
- * Theoretical biology: mathematics, computer simulations
- * Speciation models
- * My work is open, exposing possible flaws
- * My work is reproducible
- * Most scientists do not care about the C++ good practices
 
 ## Science and Travis CI
 
