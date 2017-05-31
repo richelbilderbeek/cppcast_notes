@@ -18,7 +18,6 @@ then teaching children and to adults, additionally
 writing articles, blog posts and tutorials. In his professional life, 
 he is a PhD in theoretical biology.
 
-
 ## News discussion
 
  * Writing a Really, Really Fast JSON Parser - https://chadaustin.me/2017/05/writing-a-really-really-fast-json-parser/
@@ -162,68 +161,12 @@ OTOH, I also teach a programming course, in which we teach SFML and Urho3D
  * Find minimal example: [travis_cpp_tutorial statuses](https://github.com/richelbilderbeek/travis_cpp_tutorial/blob/master/statuses.md)
  * Tutorial: [travis_cpp_tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial)
 
-# My own notes
+## Links
 
-These I could not put in the interview
+* Richel's GitHub: https://github.com/richelbilderbeek
+* Richel's Twitter: @rjcbilderbeek
+* Science and Hi-Tech Day (Dutch): http://www.djog.nl/djognieuws/11-juni-science-en-hi-techdag-djo/
 
-## Good practices. Why follow them?
+A bit too late, but perhaps this one:
 
- * Because the experts know better than most
- * Every time I deviated from the advice, I regretted it
-   * Writing a custom testing framework
-   * YAGNI: Adding Boost.Signal2 to every class
-   * Using boost::shared_ptr everywhere
- * Shows humility: I am not an expert programmer. Even Stroustrup does not claim this. Sean Parent makes you feel this
- * Shows being open to others' opinions: 
-   * I've changed my programming style multiple times
-     1. `void f(const double& x)` to `void f(const double x)`
-     2. returning `T` to `const T`, Scott Meyers. Effective C++ (3rd edition). Item 2
-     3. returning `const T` to `T`, Scott Meyers. Effective Modern C++
-   * I've changed the case of my code multiple times, from `ThisWay` to `thatWay` to `this_way`
- * Show being social
-   * Recognition of preferred ways to do things, e.g. `pimpl`: C++ Core Guidelines
-   * Naming variables, functions, classes makes the code communicate better, Kevlin Henney
-
-## Teaching
-
- * Parents were ballroom dancing teachers
- * Set up a C++ programming course at the university, with C++ Builder, for theoretical biologists
- * Graduated as a teacher in biology, taught biology, chemistry, physics and stagecraft at a secondary school
- * Collected all C++ advice on [http://richelbilderbeek.nl](my personal website), now [on GitHub](https://github.com/richelbilderbeek/cpp)
-   * Stroustrup: humble, condensed
-   * Meyers: funny, convincing
-   * Sutter and Alexandrescu: funny, convincing
-   * Sean Parent: deep detailed knowledge
-   * Kevlin Henney: naming things well
-   * Kate Gregory 'Stop teaching C', [her CppCon 2015 presentation](https://www.youtube.com/watch?v=YnWhqhNdYyk)
- * Set up two courses to teach Arduino and programming
-   * Dutch teaching material
- * [Articles](https://github.com/richelbilderbeek/articles): first on my website only, just recently on [Arne Metz's Simplify C++ blog](https://arne-mertz.de/2017/04/continuous-integration-travis-ci/)
- * Tutorials
-   * [Boost.Graph tutorial](https://github.com/richelbilderbeek/BoostGraphTutorial): 90%
-   * [Travis CI tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial): 70%
-   * [Tutorial about the MXE cross-compiling environment](https://github.com/richelbilderbeek/mxe_tutorial): 50%
-   * [Tutorial about testing C++ GUI applications](https://github.com/richelbilderbeek/testing_cpp_gui_applications_tutorial): 50%
-   * [Tutorial about using Travis CI in R projects](https://github.com/richelbilderbeek/travis_r_tutorial): 70%
-   * [Tutorial how to use AppVeyor with C++](https://github.com/richelbilderbeek/appveyor_cpp_tutorial): 30%
-
-## Teaching and Travis CI
-
- * Force students to use good practices
-   * OCLint: style must follow the guidelines
-   * gcov: check code coverage: must be high, unused code can be removed
-   * gprof: show run-time speed: only improve speed of functions where it matters
-   * cppcheck: static type checking
-   * valgrind: memory leaks, data races
-
-## Science and Travis CI
-
- * GitHub (and Travis CI) facilitates research being open
- * Travis CI facilitates research being reproducible
- * I like to add Travis CI to academic GitHubs
-
-## Future goals
-
- * Reach out more
- * Try to improve academia's coding practices 
- * Keep teaching correct C++
+ * Richel Travis CI tutorial in progress: https://github.com/richelbilderbeek/travis_cpp_tutorial
