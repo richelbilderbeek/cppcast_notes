@@ -18,6 +18,14 @@ then teaching children and to adults, additionally
 writing articles, blog posts and tutorials. In his professional life, 
 he is a PhD in theoretical biology.
 
+
+## News discussion
+
+ * Writing a Really, Really Fast JSON Parser - https://chadaustin.me/2017/05/writing-a-really-really-fast-json-parser/
+  Boost.ProperyTree has a JSON parsers
+ * C++ Online Compilers - https://arne-mertz.de/2017/05/online-compilers/
+ * Looking for Proofreaders for my new Book: Concurrency with Modern C++ - http://www.modernescpp.com/index.php/looking-for-proofreaders-for-my-new-book-concurrency-with-modern-c. Rainer Grimm
+
 ## Guest introduction
 
 Richel 
@@ -132,7 +140,7 @@ OTOH, I also teach a programming course, in which we teach SFML and Urho3D
 ## Are your students receptive to C++?
 
  * Minor kids
-   * [sent email]
+   * sent email: 'I am not using it now, but will probably be okay', yet he is programming Arduino and playing with OpenGL examples in Qt?
    * they are interested in what you can do with it
  * University students
    * they have to learn it, due to academic culture
@@ -141,7 +149,7 @@ OTOH, I also teach a programming course, in which we teach SFML and Urho3D
 ## Are there similar continuous integration services?
 
  * AppVeyor (Windows)
- * Codehsip, Jenkins, Wercker, etc.
+ * Decent CI, Codeship, Jenkins, Wercker, etc.
 
 ## Is there a feature you miss in Travis CI?
 
@@ -150,13 +158,13 @@ OTOH, I also teach a programming course, in which we teach SFML and Urho3D
 
 ## Where would you suggest to start with Travis CI?
 
+ * Use the Travis CI documentation
  * Find minimal example: [travis_cpp_tutorial statuses](https://github.com/richelbilderbeek/travis_cpp_tutorial/blob/master/statuses.md)
  * Tutorial: [travis_cpp_tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial)
 
 # My own notes
 
 These I could not put in the interview
-
 
 ## Good practices. Why follow them?
 
