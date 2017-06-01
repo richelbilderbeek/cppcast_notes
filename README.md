@@ -163,10 +163,10 @@ OTOH, I also teach a programming course, in which we teach SFML and Urho3D
 
 ## Links
 
+* Richel's homepage: www.richelbilderbeek.nl
 * Richel's GitHub: https://github.com/richelbilderbeek
 * Richel's Twitter: @rjcbilderbeek
 * Science and Hi-Tech Day (Dutch): http://www.djog.nl/djognieuws/11-juni-science-en-hi-techdag-djo/
-
-A bit too late, but perhaps this one:
-
- * Richel Travis CI tutorial in progress: https://github.com/richelbilderbeek/travis_cpp_tutorial
+* Richel's Travis CI tutorial in progress: https://github.com/richelbilderbeek/travis_cpp_tutorial
+* Richel's GitHub that has as much tests as he know: https://github.com/richelbilderbeek/the_richel_setup 
+ 
