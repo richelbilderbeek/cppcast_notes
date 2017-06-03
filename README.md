@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/richelbilderbeek/cppcast_notes.svg?branch=master)](https://travis-ci.org/richelbilderbeek/cppcast_notes)
 
-Shownotes for CppCast episode 103.
+Shownotes for [CppCast episode 103](http://cppcast.com/2017/06/richel-bilderbeek).
 
  * Host: Rob Irving
  * Co-Host: Jason Turner
@@ -163,10 +163,8 @@ OTOH, I also teach a programming course, in which we teach SFML and Urho3D
 
 ## Links
 
-* Richel's GitHub: https://github.com/richelbilderbeek
-* Richel's Twitter: @rjcbilderbeek
-* Science and Hi-Tech Day (Dutch): http://www.djog.nl/djognieuws/11-juni-science-en-hi-techdag-djo/
-
-A bit too late, but perhaps this one:
-
+ * Richel's GitHub: https://github.com/richelbilderbeek
+ * Richel's Twitter: @rjcbilderbeek
+ * Science and Hi-Tech Day (Dutch): http://www.djog.nl/djognieuws/11-juni-science-en-hi-techdag-djo/
  * Richel Travis CI tutorial in progress: https://github.com/richelbilderbeek/travis_cpp_tutorial
+ * Richel's favorite setup, with as much tests as possible: https://github.com/richelbilderbeek/the_richel_setup
