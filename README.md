@@ -163,6 +163,7 @@ OTOH, I also teach a programming course, in which we teach SFML and Urho3D
 
 ## Links
 
+ * Richel's homepage: www.richelbilderbeek.nl
  * Richel's GitHub: https://github.com/richelbilderbeek
  * Richel's Twitter: @rjcbilderbeek
  * Science and Hi-Tech Day (Dutch): http://www.djog.nl/djognieuws/11-juni-science-en-hi-techdag-djo/
