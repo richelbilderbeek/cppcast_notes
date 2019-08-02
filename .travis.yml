@@ -1,4 +1,4 @@
-dist: trusty
+dist: bionic
 
 install:
   - sudo apt-get install aspell
