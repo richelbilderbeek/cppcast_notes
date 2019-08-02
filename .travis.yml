@@ -3,10 +3,10 @@ dist: bionic
 install:
   - sudo apt update -qq
   # aspell
-  - sudo apt-get install aspell
+  #- sudo apt-get install aspell
   # proselint
   - sudo pip install proselint
 
 script: 
-  - cat README.md | aspell --list
+  #- cat README.md | aspell --list
   - proselint README.md
